@@ -1,9 +1,5 @@
-repository : git@bitbucket.org:godofembedded/command.git
-
-
 ### How do I get set up? ###
 * cd ~/
-* git clone git@bitbucket.org:godofembedded/command.git
+* clone https://github.com/jwkang/cmd.git
 * cd /usr/bin
-* sudo ln -s cmd /home/$(whoami)/command/cmd.sh cmd
-*
+* sudo ln -s /home/$(whoami)/cmd/cmd.sh cmd
